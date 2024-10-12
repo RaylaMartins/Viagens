@@ -1,0 +1,23 @@
+.ourTeamMemberLeft {
+    width: 50%;
+    height: 200px;
+}
+.memberImg {
+    width: 300px;
+    height: 400px;
+}
+.ourTeamMemberRight {
+    width: 50%;
+}
+.memberWorkImg {
+    width: 150px;
+    height: 150px;
+}
+.modalImage {
+    height: 300px;
+}
+
+.memberWorkImages {
+    height: 300px;
+    overflow-y: scroll;
+}

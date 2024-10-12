@@ -1,0 +1,145 @@
+
+
+@keyframes bgColor {
+    0% {
+        background-color: var(--color4);
+    }
+    100% {
+        background-color: var(--colorWhitish);
+    }    
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Italic.ttf);
+    font-style: italic;
+}
+
+:root {
+   
+    --colorWhitish: rgb(248, 249, 250); 
+    --colorBlackish: rgb(33, 37, 41); 
+
+    --colorWhite: white;
+    --colorSilver: silver;
+    --colorGray: gray;
+    --colorBlack: black;
+    --colorRed: red;
+    --colorLime: lime;
+    --colorCyan: cyan;
+    --colorYellow: yellow;
+
+  
+    --colorWB1: rgb(233, 236, 239); 
+    --colorWB2: rgb(222, 226, 230); 
+    --colorWB3: rgb(206, 212, 218); 
+    --colorWB4: rgb(173, 181, 189); 
+    --colorWB5: rgb(108, 117, 125); 
+    --colorWB6: rgb(73, 80, 87); 
+    --colorWB7: rgb(52, 58, 64); 
+
+    --color1: #ADE8F4; 
+    --color2: #90E0EF; 
+    --color3: #48CAE4; 
+    --color4: #00B4D8; 
+    --color5: #0096C7; 
+    --color6: #0077B6; 
+    --color7: #023E8A; 
+
+    
+    --color1: #FAA307; 
+    --color2: #F48C06; 
+    --color3: #E85D04; 
+    --color4: #D00000; 
+    --color5: #9D0208; 
+    --color6: #6A040F; 
+    --color7: #370617; 
+   
+   
+    --color1: #B7E4C7; 
+    --color2: #9ef5e9; 
+    --color3: #73cbee; 
+    --color4: #419be4; 
+    --color5: #5f9ce2; 
+    --color6: #0224e6; 
+    --color7: #1349ad;
+
+   
+    --fontArt1: 'Protest Guerrilla';
+    --fontSans1: Roboto;
+    --fontSerifa1: 'Times New Roman';
+
+    --fontArt2: 'Protest Guerrilla';
+    --fontSans2: 'SUSE';
+    --fontSerifa2: 'Times New Roman';
+    
+    --textSize: 10pt; 
+    --textSizeS: 8pt; 
+    --textSizeL: 12pt; 
+    --textSizeLX: 14pt; 
+    
+    --iconSize: 32px; 
+    --iconSizeS: 24px; 
+    --iconSizeM: 36px; 
+    --iconSizeL: 48px; 
+    --iconSizeLX: 64px; 
+    
+   
+    --spaceIn: 10px;
+    --spaceIn2: 20px;
+    --spaceIn3: 30px;
+    --spaceOut: 50px;
+    --spaceMax: 100px;
+    --spaceMin: 5px;
+
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+    --transition: .5s;
+}
+
+.cBack {
+    background-color: pink;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontSans1), Arial, Helvetica, sans-serif;
+}
+
+body, header, footer {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 8px;
+    padding: var(--spaceIn);
+}
+
+p {
+    text-align: justify;
+    padding-top: var(--spaceIn);
+}
+button {
+    padding: 5px var(--spaceIn);
+    color: var(--colorWhitish);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.postAuthorImg {
+    width: 30px;
+    height: 30px;
+    background-color: var(--color7);
+    border-radius: 100%;
+}
